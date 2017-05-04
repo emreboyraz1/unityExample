@@ -47,6 +47,8 @@ public sealed class singleton
     {
         Debug.Log("COUNTdOWN");
         yield return new WaitForSeconds(5);
+        Debug.Log("deneme");
+
     }
     private void OnDestroy()
     { if (this == instance) { instance = null; } }
