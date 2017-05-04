@@ -39,7 +39,7 @@ public sealed class singleton
         for(int i = 0; i < 500; i++)
         {
            // StartCoroutine(countDown());
-            Debug.Log("deneme");
+            Debug.Log("i : " + i);
         }
     }
 
