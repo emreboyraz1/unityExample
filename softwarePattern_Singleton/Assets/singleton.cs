@@ -38,16 +38,14 @@ public sealed class singleton
     {
         for(int i = 0; i < 500; i++)
         {
-           // StartCoroutine(countDown());
-            Debug.Log("deneme");
+            // StartCoroutine(countDown());
+            Debug.Log("my i : " i);
         }
     }
 
     IEnumerator countDown()
     {
-        Debug.Log("COUNTdOWN");
         yield return new WaitForSeconds(5);
-        Debug.Log("deneme");
 
     }
     private void OnDestroy()
